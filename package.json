@@ -1,0 +1,11 @@
+{
+  "name": "money.me",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm --prefix app run dev",
+    "test": "npm --prefix app test"
+  }
+}

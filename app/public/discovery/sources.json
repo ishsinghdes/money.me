@@ -1,0 +1,96 @@
+[
+  {
+    "name": "laapataa",
+    "source_page": "https://www.netflix.com/in/title/81760391",
+    "source_asset": "https://occ-0-7976-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfn8eQ_AqoKVEbHx9FMRT1olRoh0NXrzvSchX0qTObA4I8Slz5nTf_TFtCzLxKAyyqohLwY3TbNcJt04cRP13xlI0U42lgrtn-K8.jpg?r=e93",
+    "file": "laapataa.webp",
+    "size": [
+      992,
+      558
+    ]
+  },
+  {
+    "name": "maharaja",
+    "source_page": "https://www.netflix.com/in/title/81690671",
+    "source_asset": "https://occ-0-7976-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeuzeNvriXCcoMKyMSm6V2IXFfbJOr-X6a7zIxWD0LtFVweYzFh_HBS03MVcjTYZufgpmtlPgBKvoSyGi8h6LQ1LVouyet-3j3tl.jpg?r=005",
+    "file": "maharaja.webp",
+    "size": [
+      992,
+      558
+    ]
+  },
+  {
+    "name": "spotify",
+    "source_page": "https://newsroom.spotify.com/2026-07-10/discovery-playlists-release-radar-control-updates/",
+    "source_asset": "https://storage.googleapis.com/pr-newsroom-wp/1/2026/07/26_0626_Discover-Weekly-Fresh-Finds-Release-Radar-and-New-Music-Friday-Roundup-1-1920x733.png",
+    "file": "spotify.webp",
+    "size": [
+      1000,
+      382
+    ]
+  },
+  {
+    "name": "strava",
+    "source_page": "https://www.strava.com/features",
+    "source_asset": "https://images.secure.ctfassets.net/9olkiac82a1q/7FdONy15cdQO3oyp6zuaNb/3d4c107b229837fa98f1ae8a9f4c4a3d/SubRebrand-ShareImage-Desktop-en-US.png?policy=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjE6MSJ9.eyJleHAiOjE3OTUzNTkzMjIsInN1YiI6IjlvbGtpYWM4MmExcSIsImF1ZCI6ImFkbiIsImp0aSI6ImE0MTgwNGQ3LTE1MmEtNDI5Zi1hNmI3LWE5YmZmNTM4NjYzNCIsImN0Zjp1bnB1YiI6dHJ1ZX0&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJodHRwczovL2ltYWdlcy5zZWN1cmUuY3RmYXNzZXRzLm5ldC85b2xraWFjODJhMXEvN0ZkT055MTVjZFFPM295cDZ6dWFOYi8zZDRjMTA3YjIyOTgzN2ZhOThmMWFlOGE5ZjRjNGEzZC9TdWJSZWJyYW5kLVNoYXJlSW1hZ2UtRGVza3RvcC1lbi1VUy5wbmciLCJleHAiOjE3OTUzNjA3MjF9.GVDJhRwpZkhIcBxSVv7kfqFW7fbuiD-wEN8EG1LhwbQ",
+    "file": "strava.webp",
+    "size": [
+      1000,
+      625
+    ]
+  },
+  {
+    "name": "adobe",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "cult",
+    "error": "No public image metadata"
+  },
+  {
+    "name": "notion",
+    "source_page": "https://www.notion.com/",
+    "source_asset": "https://www.notion.com/front-static/meta/teams-and-agents.jpg",
+    "file": "notion.webp",
+    "size": [
+      1000,
+      521
+    ]
+  },
+  {
+    "name": "chatgpt",
+    "error": "No public image metadata"
+  },
+  {
+    "name": "youtube",
+    "source_page": "https://www.youtube.com/",
+    "source_asset": "https://www.youtube.com/img/desktop/yt_1200.png",
+    "file": "youtube.webp",
+    "size": [
+      700,
+      700
+    ]
+  },
+  {
+    "name": "prime",
+    "error": "HTTP Error 503: Service Temporarily Unavailable"
+  },
+  {
+    "name": "hotstar",
+    "error": "No public image metadata"
+  },
+  {
+    "name": "apple",
+    "source_page": "https://www.apple.com/in/icloud/",
+    "source_asset": "https://www.apple.com/v/icloud/ak/images/meta/og__cu0qwzuuysq6_overview.png?202610160431",
+    "file": "apple.webp",
+    "size": [
+      1000,
+      525
+    ]
+  },
+  {
+    "name": "vpn",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
