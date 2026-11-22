@@ -76,14 +76,7 @@ function Brand({ m, small = false }: {
 }) { return <span className={'brand-icon ' + (small ? 'small' : '')} style={{ background: m.bg, color: m.color }}><Logo m={m}/></span>; }
 function App() {
     const [desktop, setDesktop] = useState(new URLSearchParams(location.search).get('view') === 'desktop');
-    const [entry, setEntry] = useState<'welcome' | 'entering' | 'ready'>(() => {
-        try {
-            return sessionStorage.getItem('money-me-entered') ? 'ready' : 'welcome';
-        }
-        catch {
-            return 'welcome';
-        }
-    });
+    const [entry, setEntry] = useState<'welcome' | 'entering' | 'ready'>('welcome');
     const [s, setS] = useState<State>(load), [tab, setTab] = useState<Tab>('Home'), [sheet, setSheet] = useState<Sheet | null>(null), [selected, setSelected] = useState('netflix'), [appSearch, setAppSearch] = useState(''), [focusRequest, setFocusRequest] = useState(0), [filter, setFilter] = useState<Kind | 'All'>('All'), [toast, setToast] = useState(''), [confirm, setConfirm] = useState<{
         title: string;
         body: string;
@@ -184,20 +177,12 @@ function App() {
         setGuideStep(0);
         setChecking(false);
         setEntry('welcome');
-        try {
-            sessionStorage.removeItem('money-me-entered');
-        }
-        catch { }
     }
     function enterHome(email: string) {
         setS(v => ({ ...v, email }));
         setTab('Home');
         setSheet(null);
         setEntry('entering');
-        try {
-            sessionStorage.setItem('money-me-entered', '1');
-        }
-        catch { }
     }
     useEffect(() => {
         if (entry !== 'entering')
@@ -210,10 +195,6 @@ function App() {
         setSheet(null);
         if (entry === 'welcome') {
             setEntry('ready');
-            try {
-                sessionStorage.setItem('money-me-entered', '1');
-            }
-            catch { }
         }
     }
     const near = upcoming(s).filter(m => m.next < nextPayday(s));
